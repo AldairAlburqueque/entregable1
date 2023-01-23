@@ -3,7 +3,6 @@ import './App.css'
 import QuoteBox from './components/QuoteBox'
 import quotes from './json/quotes.json'
 import colors from './json/colors.json'
-import Add from './components/Add'
 function App() {
   
   const randomElementFromArray = arr => {
@@ -25,9 +24,6 @@ function App() {
       quoteRandom={quoteRandom} 
       handdleClick={handdleClick}
       colorRandom={colorRandom}/>
-      <Add 
-      colorRandom={colorRandom}
-      />
     </div>
     
   )
